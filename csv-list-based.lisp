@@ -1,4 +1,4 @@
-;;; rudimentary-csv: csv-list-based.lisp
+;;; basic-csv: csv-list-based.lisp
 ;;; By A. Sebold (manney)
 ;;;
 ;;; This program is free software: you can redistribute it and/or modify

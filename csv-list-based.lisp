@@ -150,10 +150,10 @@
 
                 (dotimes (x (length csv-file))
                         (setf csv-list (append csv-list (list
-                                                                                                                                                         (parse-line
-                                                                                                                                                                (nth x csv-file)
-                                                                                                                                                                separator
-                                                                                                                                                                decimal-point)))))
+                                                         (parse-line
+                                                          (nth x csv-file)
+                                                          separator
+                                                          decimal-point)))))
                 csv-list))
 
 (defun line-to-string (l separator decimal-point)
